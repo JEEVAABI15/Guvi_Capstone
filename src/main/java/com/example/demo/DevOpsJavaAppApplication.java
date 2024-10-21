@@ -18,7 +18,7 @@ public class DevOpsJavaAppApplication {
 class HelloWorldController {
     @GetMapping("/hello")
     public String hello() {
-        return "Hello, DevOps World from Java! jeeva jayanth";
+        return "Hello, DevOps World from Java!";
     }
 }
 
