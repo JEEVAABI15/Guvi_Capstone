@@ -22,6 +22,6 @@ class DevOpsJavaAppApplicationTests {
     void helloEndpointTest() {
         // Test the /hello endpoint
         ResponseEntity<String> response = restTemplate.getForEntity("/hello", String.class);
-        assertThat(response.getBody()).isEqualTo("Hello, DevOps World from Java!");
+        assertThat(response.getBody()).isEqualTo("Hello, DevOps World from Java! jeeva jayanth");
     }
 }
